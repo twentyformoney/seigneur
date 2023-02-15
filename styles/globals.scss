@@ -1,0 +1,302 @@
+$background-dark: #212121;
+$background-light: #ffffff;
+
+.Navbar {
+    padding: 0.4rem 1rem 0.4rem;
+    color: $background-light;
+    border-radius: 1.2rem;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1);
+    display: flex;
+
+}
+
+.logo-judul {
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    font-weight: 600;
+}
+
+.h1 {
+    font-size: xx-large;
+    color: #212121;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.list-kategori {
+    color: black;
+}
+
+.judul {
+    text-align: center;
+}
+
+li>a {
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-weight: 600;
+    margin-right: 1rem;
+    transition: 0.3s;
+
+}
+
+
+input:focus {
+    outline:none;
+}
+
+.input-container{
+    padding:0.5rem;
+    text-align: center;
+}
+.inputan-login{
+    text-align: center;
+}
+.input{
+    background-color: #f1f1f1;
+    outline:none;
+    border:none;
+    padding: 1rem 0.4rem 1rem;
+    border-radius: 0.7rem;
+    width: 90%;
+    font-size: medium;
+
+}
+.atas-login{
+    background-color: #1AA7EC;
+    padding:0.5rem;
+    font-size: xx-small;
+    border-radius: 0.7rem;
+    margin-bottom: 3rem;
+    transition: 0.4s;
+    margin:1em;
+    
+}
+.atas-login:hover{
+    box-shadow: 0 3px 35px 0 #53baee, 0 5px 20px 0 #1AA7EC;
+    opacity:79%;
+}
+.create-akun{
+    color:#1E2F97;
+}
+.fungsi-settings{
+    display: flex;
+    gap: 1em;
+    font-size: larger;
+}
+.Settingspan-module{
+    margin:auto;
+}
+ /* The switch - the box around the slider */
+ .switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  } 
+.ul-navbar-mobile{
+    display:none;
+    padding:1rem;
+    list-style-type: none;
+    background-color: #f1f1f1;
+    border-radius: 1.2rem;
+        li{
+            padding:0.7rem;
+        }
+        opacity: 1;
+        animation-name: fadeInOpacity;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 0.5s;
+}
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+.modul-settings{
+    background-color: #f1f1f1;
+    padding:4em;
+    font-weight: 600;
+    border-radius: 1.2rem;
+    display: flex;
+    margin:1em;
+    
+}
+.btnlogin{
+    border:none;
+    background-color: #1AA7EC;
+    color:white;
+    padding:1rem;
+    font-size: large;
+    font-weight: 600;
+    border-radius: 0.5rem;
+    width: 30%;
+    margin:1rem;
+    transition: 0.5s;
+}
+.btnlogin:hover{
+    opacity: 85%;
+    box-shadow: 0 2px 10px 0 #53baee, 0 10px 50px 0 #1AA7EC;
+}
+.modul-login{
+    justify-content: center;
+    gap: 1rem;
+    border-radius:1.3rem;
+    font-size: large;
+    color:White;
+    width: 30rem;
+    margin:auto;
+    }
+.modul{
+    padding:4rem;
+    margin:auto;
+}  
+li>a:hover {
+    background-color: #1AA7EC;
+    border-radius: 1.3rem;
+    color: white;
+    padding: 1rem;
+
+}
+li>a:target {
+    background-color: #1AA7EC;
+    border-radius: 1.3rem;
+    color: white;
+    padding: 1rem;
+
+}
+
+ul.ul-navbar {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    list-style: none;
+    padding: 1rem;
+    justify-content: space-between;
+    margin-left: auto; 
+
+}
+
+.klik-bar {
+    display: none;
+    background-color: #1AA7EC;
+    outline: none;
+    margin-left: auto;
+    border: none;
+    outline: none;
+    border-radius: 1.4rem;
+    transition: transform .4s;
+
+}
+
+a {
+    text-decoration: none;
+    color: $background-dark;
+}
+
+.Logo {
+    width: 50px;
+    height: 50px;
+    padding: 0.3rem;
+    vertical-align: middle;
+}
+
+.klik-bar:active {
+    transform: scale(1.2);
+}
+
+@media screen and (max-width: 700px) {
+    .Logo {
+        display: none;
+
+    }
+
+    .klik-bar {
+        display: block;
+    }
+
+    ul.ul-navbar {
+        display: none
+    }
+    .modul{
+        margin:auto;
+        padding:0;
+    }
+    .modul-login{
+        width: 100%;
+    }
+    ul.ul-navbar-mobile{
+        display:block;
+    }
+    .fungsi-settings{
+        display:grid;
+        grid-column-start: 1;
+      
+    }
+    .Settingspan-module{
+        margin:0;
+    }
+
+}
